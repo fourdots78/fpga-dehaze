@@ -1,0 +1,23 @@
+# Generated Gowin and ModelSim working files
+project/cam2dvi/impl/
+project/cam2dvi/*.gprj.user
+project/modelsim.ini
+project/*_work/
+project/work/
+*.wlf
+*.vcd
+*.tmp
+*.bak
+__pycache__/
+# Credentials and machine configuration
+*.lic
+license.dat
+.env
+.env.*
+*.pem
+*.key
+# Large programming files belong in GitHub Releases
+bitstreams/*.fs
+tools/calibration/generated_templates.vh
+project/build_latest.log
+project/sim/*_rerun*.log

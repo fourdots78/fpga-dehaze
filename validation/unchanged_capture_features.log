@@ -1,0 +1,24 @@
+# do sim/run_capture.do
+# ** Warning: (vlib-34) Library already exists at "feature_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work feature_work 
+# Modifying modelsim.ini
+# Start time: 04:16:49 on Nov 04,2026
+# vlog cam2dvi/src/video_compare.v sim/tb_capture.v 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module video_compare
+# -- Compiling module tb_capture
+# 
+# Top level modules:
+# 	tb_capture
+# End time: 04:16:49 on Nov 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.tb_capture 
+# Start time: 04:16:49 on Nov 04,2026
+# Loading work.tb_capture
+# Loading work.video_compare
+# PASS queued manual raw snapshot, unconfirmed label, clear priority, auto rearm and exact content
+# ** Note: $finish    : sim/tb_capture.v(20)
+#    Time: 266150 ns  Iteration: 1  Instance: /tb_capture
+# End time: 04:16:49 on Nov 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

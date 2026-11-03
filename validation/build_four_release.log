@@ -1,0 +1,422 @@
+*** GOWIN Tcl Command Line Console  *** 
+Open project T:/cam2dvi/cam2dvi.gprj finished
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'T:\cam2dvi\src\demo_controls.v'
+Analyzing Verilog file 'T:\cam2dvi\src\cmos_8_16bit.v'
+Analyzing Verilog file 'T:\cam2dvi\src\dehaze_core.v'
+Analyzing Verilog file 'T:\cam2dvi\src\dehaze_color_safe.v'
+Analyzing included file 'T:\cam2dvi\src\gain_extra_rom.vh'("T:\cam2dvi\src\dehaze_color_safe.v":22)
+Back to file 'T:\cam2dvi\src\dehaze_color_safe.v'("T:\cam2dvi\src\dehaze_color_safe.v":22)
+Analyzing Verilog file 'T:\cam2dvi\src\sobel_edge.v'
+Analyzing Verilog file 'T:\cam2dvi\src\line_buffer_3x3.v'
+Analyzing Verilog file 'T:\cam2dvi\src\dehaze_stream_top.v'
+Analyzing Verilog file 'T:\cam2dvi\src\rgb_invert.v'
+Analyzing Verilog file 'T:\cam2dvi\src\sign_detector.v'
+Analyzing included file 'T:\cam2dvi\src\sign_templates.vh'("T:\cam2dvi\src\sign_detector.v":25)
+Back to file 'T:\cam2dvi\src\sign_detector.v'("T:\cam2dvi\src\sign_detector.v":25)
+Analyzing Verilog file 'T:\cam2dvi\src\video_osd.v'
+Analyzing included file 'T:\cam2dvi\src\osd_layout.vh'("T:\cam2dvi\src\video_osd.v":16)
+Back to file 'T:\cam2dvi\src\video_osd.v'("T:\cam2dvi\src\video_osd.v":16)
+Analyzing Verilog file 'T:\cam2dvi\src\video_compare.v'
+Analyzing Verilog file 'T:\cam2dvi\src\ddr3_memory_interface\DDR3MI_400M.v'
+Analyzing Verilog file 'T:\cam2dvi\src\dvi_tx\DVI_TX_Top.v'
+Analyzing Verilog file 'T:\cam2dvi\src\fifo_top\video_fifo.v'
+Analyzing Verilog file 'T:\cam2dvi\src\gowin_pll\TMDS_PLL_60HZ.v'
+Analyzing Verilog file 'T:\cam2dvi\src\gowin_pll\gowin_pll_400M.v'
+Analyzing Verilog file 'T:\cam2dvi\src\i2c_master\i2c_config.v'
+Analyzing Verilog file 'T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v'
+Analyzing included file 'T:\cam2dvi\src\i2c_master\i2c_master_defines.v'("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":141)
+Back to file 'T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v'("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":141)
+Analyzing Verilog file 'T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v'
+Analyzing included file 'T:\cam2dvi\src\i2c_master\i2c_master_defines.v'("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":73)
+Back to file 'T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v'("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":73)
+Analyzing Verilog file 'T:\cam2dvi\src\i2c_master\i2c_master_defines.v'
+Analyzing Verilog file 'T:\cam2dvi\src\i2c_master\i2c_master_top.v'
+Analyzing Verilog file 'T:\cam2dvi\src\i2c_master\timescale.v'
+Analyzing Verilog file 'T:\cam2dvi\src\lut_ov5640_rgb565_1280_720.v'
+Analyzing Verilog file 'T:\cam2dvi\src\syn_gen.v'
+Analyzing Verilog file 'T:\cam2dvi\src\testpattern.v'
+Analyzing Verilog file 'T:\cam2dvi\src\top.v'
+Undeclared symbol 'cmos_clk', assumed default net type 'wire'("T:\cam2dvi\src\top.v":180)
+Undeclared symbol 'aux_clk', assumed default net type 'wire'("T:\cam2dvi\src\top.v":181)
+Undeclared symbol 'pll_stop', assumed default net type 'wire'("T:\cam2dvi\src\top.v":187)
+Undeclared symbol 'cmos_16bit_wr', assumed default net type 'wire'("T:\cam2dvi\src\top.v":269)
+WARN  (EX3801) : Parameter 'ADDR_WIDTH' becomes localparam in 'top' with formal parameter declaration list("T:\cam2dvi\src\top.v":94)
+WARN  (EX3801) : Parameter 'DATA_WIDTH' becomes localparam in 'top' with formal parameter declaration list("T:\cam2dvi\src\top.v":95)
+WARN  (EX3801) : Parameter 'WR_VIDEO_WIDTH' becomes localparam in 'top' with formal parameter declaration list("T:\cam2dvi\src\top.v":96)
+WARN  (EX3801) : Parameter 'RD_VIDEO_WIDTH' becomes localparam in 'top' with formal parameter declaration list("T:\cam2dvi\src\top.v":97)
+Analyzing Verilog file 'T:\cam2dvi\src\vga_timing.v'
+WARN  (EX3801) : Parameter 'H_TOTAL' becomes localparam in 'vga_timing' with formal parameter declaration list("T:\cam2dvi\src\vga_timing.v":24)
+WARN  (EX3801) : Parameter 'V_TOTAL' becomes localparam in 'vga_timing' with formal parameter declaration list("T:\cam2dvi\src\vga_timing.v":25)
+Analyzing Verilog file 'T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v'
+Analyzing Verilog file 'T:\cam2dvi\src\video_timing_check.v'
+Compiling module 'top'("T:\cam2dvi\src\top.v":1)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("T:\cam2dvi\src\top.v":129)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("T:\cam2dvi\src\top.v":135)
+Compiling module 'timing_check'("T:\cam2dvi\src\video_timing_check.v":1)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("T:\cam2dvi\src\video_timing_check.v":94)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("T:\cam2dvi\src\video_timing_check.v":120)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("T:\cam2dvi\src\video_timing_check.v":137)
+Compiling module 'Gowin_PLL'("T:\cam2dvi\src\gowin_pll\gowin_pll_400M.v":10)
+Compiling module 'lut_ov5640_rgb565(HActive=12'd1280,VActive=12'd720,HTotal=13'd1892,VTotal=13'd740,USE_4vs3_frame="false")'("T:\cam2dvi\src\lut_ov5640_rgb565_1280_720.v":1)
+Compiling module 'i2c_config'("T:\cam2dvi\src\i2c_master\i2c_config.v":1)
+Compiling module 'i2c_master_top'("T:\cam2dvi\src\i2c_master\i2c_master_top.v":1)
+Compiling module 'i2c_master_byte_ctrl'("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":75)
+Compiling module 'i2c_master_bit_ctrl'("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":143)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":194)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":211)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":212)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":216)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":217)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":221)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":222)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":226)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":227)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":238)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":239)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":243)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":244)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 14("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":258)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":283)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":284)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":286)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":287)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":291)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":292)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":294)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":295)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":299)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":300)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":302)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":303)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":313)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":314)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":318)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":319)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":323)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":324)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":330)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":331)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":332)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":342)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":344)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":346)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":350)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":352)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":354)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":359)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":387)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":388)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":389)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":390)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":391)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":395)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":396)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":397)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":398)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":399)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":403)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":411)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":412)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":413)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":414)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":415)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":418)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":419)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":420)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":426)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":427)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":428)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":429)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":434)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":435)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":436)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":437)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":442)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":443)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":444)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":445)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":450)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":451)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":452)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":453)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":458)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":459)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":460)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":461)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":462)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":468)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":469)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":470)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":471)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":476)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":477)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":478)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":479)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":484)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":485)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":486)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":487)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":492)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":493)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":494)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":495)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":496)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":502)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":503)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":504)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":505)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":510)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":511)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":512)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":513)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":518)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":519)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":520)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":521)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":526)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":527)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":528)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":529)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":530)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":536)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":537)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":538)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":539)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":544)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":545)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":546)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":547)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":553)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":554)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":555)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":556)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":561)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":562)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":563)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":564)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":565)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("T:\cam2dvi\src\i2c_master\i2c_master_bit_ctrl.v":406)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":175)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":177)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":179)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":181)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":186)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":188)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":190)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":192)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":204)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":205)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":206)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":207)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":208)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":209)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":210)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":214)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":215)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":216)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":217)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":218)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":219)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":220)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":225)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":226)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":227)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":228)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":236)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":237)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":241)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":242)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":246)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":247)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":251)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":252)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":255)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":263)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":264)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":268)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":269)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":272)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":279)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":280)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":284)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":285)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":286)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":294)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":295)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":299)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":300)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":303)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":304)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":312)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":313)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":317)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":318)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":321)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":325)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":327)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":330)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":335)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":336)
+WARN  (EX2629) : Delay control is not supported for synthesis("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":339)
+WARN  (EX3827) : Synthesis - simulation differences may occur when using full_case directive("T:\cam2dvi\src\i2c_master\i2c_master_byte_ctrl.v":230)
+Compiling module 'cmos_8_16bit'("T:\cam2dvi\src\cmos_8_16bit.v":1)
+Compiling module 'vga_timing'("T:\cam2dvi\src\vga_timing.v":1)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 10("T:\cam2dvi\src\vga_timing.v":107)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 10("T:\cam2dvi\src\vga_timing.v":114)
+Compiling module 'Video_Frame_Buffer_Top'("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4966)
+Compiling module '**'("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 16 for port 'O_vout0_data'("T:\cam2dvi\src\top.v":436)
+Compiling module 'DDR3MI'("T:\cam2dvi\src\ddr3_memory_interface\DDR3MI_400M.v":31657)
+Compiling module '**'("T:\cam2dvi\src\ddr3_memory_interface\DDR3MI_400M.v":31656)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 15 for port 'O_ddr_addr'("T:\cam2dvi\src\top.v":484)
+Compiling module 'rgb_invert'("T:\cam2dvi\src\rgb_invert.v":83)
+Compiling module 'dehaze_sobel_top'("T:\cam2dvi\src\dehaze_stream_top.v":4)
+Compiling module 'image_enhance'("T:\cam2dvi\src\dehaze_color_safe.v":6)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+Extracting RAM for identifier 'row_memory'("T:\cam2dvi\src\dehaze_color_safe.v":60)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("T:\cam2dvi\src\dehaze_color_safe.v":76)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("T:\cam2dvi\src\dehaze_color_safe.v":80)
+Compiling module 'demo_controls'("T:\cam2dvi\src\demo_controls.v":2)
+Compiling module 'video_compare'("T:\cam2dvi\src\video_compare.v":5)
+Extracting RAM for identifier 'bank0'("T:\cam2dvi\src\video_compare.v":27)
+Extracting RAM for identifier 'bank1'("T:\cam2dvi\src\video_compare.v":27)
+Extracting RAM for identifier 'delta0'("T:\cam2dvi\src\video_compare.v":28)
+Extracting RAM for identifier 'delta1'("T:\cam2dvi\src\video_compare.v":28)
+Extracting RAM for identifier 'snapshot'("T:\cam2dvi\src\video_compare.v":29)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 8("T:\cam2dvi\src\video_compare.v":37)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 11("T:\cam2dvi\src\video_compare.v":94)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("T:\cam2dvi\src\video_compare.v":95)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("T:\cam2dvi\src\video_compare.v":105)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("T:\cam2dvi\src\video_compare.v":112)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 16("T:\cam2dvi\src\video_compare.v":125)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("T:\cam2dvi\src\video_compare.v":188)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("T:\cam2dvi\src\video_compare.v":189)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 11("T:\cam2dvi\src\video_compare.v":190)
+Compiling module 'sign_detector'("T:\cam2dvi\src\sign_detector.v":4)
+Extracting RAM for identifier 'intensity'("T:\cam2dvi\src\sign_detector.v":53)
+Compiling module 'sign_localizer'("T:\cam2dvi\src\sign_detector.v":279)
+Extracting RAM for identifier 'tiles'("T:\cam2dvi\src\sign_detector.v":291)
+Extracting RAM for identifier 'queue'("T:\cam2dvi\src\sign_detector.v":292)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 7("T:\cam2dvi\src\sign_detector.v":338)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("T:\cam2dvi\src\sign_detector.v":338)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("T:\cam2dvi\src\sign_detector.v":339)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("T:\cam2dvi\src\sign_detector.v":340)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("T:\cam2dvi\src\sign_detector.v":340)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 7("T:\cam2dvi\src\sign_detector.v":341)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("T:\cam2dvi\src\sign_detector.v":342)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 7("T:\cam2dvi\src\sign_detector.v":343)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("T:\cam2dvi\src\sign_detector.v":343)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("T:\cam2dvi\src\sign_detector.v":344)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("T:\cam2dvi\src\sign_detector.v":345)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("T:\cam2dvi\src\sign_detector.v":345)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 9("T:\cam2dvi\src\sign_detector.v":158)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 8("T:\cam2dvi\src\sign_detector.v":158)
+Compiling module 'video_osd'("T:\cam2dvi\src\video_osd.v":3)
+Extracting RAM for identifier 'font_rom'("T:\cam2dvi\src\video_osd.v":17)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":34)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":34)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":41)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":42)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":43)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":44)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":45)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":46)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":47)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":48)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":49)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("T:\cam2dvi\src\video_osd.v":50)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":62)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":64)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":67)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":69)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":71)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":75)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":78)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":81)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":83)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":90)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":92)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("T:\cam2dvi\src\video_osd.v":94)
+Compiling module 'TMDS_PLL'("T:\cam2dvi\src\gowin_pll\TMDS_PLL_60HZ.v":10)
+Compiling module 'DVI_TX_Top'("T:\cam2dvi\src\dvi_tx\DVI_TX_Top.v":1089)
+Compiling module '**'("T:\cam2dvi\src\dvi_tx\DVI_TX_Top.v":1088)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/n423_s2"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/n423_s3"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/n423_s4"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_write_ctrl/dma_wr_addr_28_s1"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/n169_s2"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/n169_s4"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/dma_rd_addr_28_s1"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "Video_Frame_Buffer_Top_inst/vfb_ddr3_wrapper_inst/u_dma_bus_arbiter/O_addr_d_28_s"("T:\cam2dvi\src\video_frame_buffer\Video_Frame_Buffer_Top.v":4965)
+WARN  (NL0001) : Sweep user defined dangling instance "u_ddr3/gw3_top/u_gwmc_top/gwmc_bank_ctrl/cmd_accept_ref_Z_s1"("T:\cam2dvi\src\ddr3_memory_interface\DDR3MI_400M.v":31656)
+WARN  (NL0001) : Sweep user defined dangling instance "u_ddr3/gw3_top/u_gwmc_top/gwmc_timing_ctrl/ref_accepted_s0"("T:\cam2dvi\src\ddr3_memory_interface\DDR3MI_400M.v":31656)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "lut_ov5640_rgb565" instantiated to "lut_ov5640_rgb565_m0" is swept in optimizing("T:\cam2dvi\src\top.v":231)
+WARN  (NL0002) : The module "timing_check" instantiated to "timing_check_5640" is swept in optimizing("T:\cam2dvi\src\top.v":174)
+[95%] Generate netlist file "T:\cam2dvi\impl\gwsynthesis\cam2dvi.vg" completed
+[100%] Generate report file "T:\cam2dvi\impl\gwsynthesis\cam2dvi_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "T:\cam2dvi\impl\gwsynthesis\cam2dvi.vg"
+Parsing netlist file "T:\cam2dvi\impl\gwsynthesis\cam2dvi.vg" completed
+Processing netlist completed
+Reading constraint file: "T:\cam2dvi\src\138K_PRO_DOCK.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cmos_vsync_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cmos_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "T:\cam2dvi\impl\pnr\cam2dvi.power.html" completed
+Generate file "T:\cam2dvi\impl\pnr\cam2dvi.pin.html" completed
+Generate file "T:\cam2dvi\impl\pnr\cam2dvi.rpt.html" completed
+Generate file "T:\cam2dvi\impl\pnr\cam2dvi.rpt.txt" completed
+Generate file "T:\cam2dvi\impl\pnr\cam2dvi.tr.html" completed
+Generate file "T:\cam2dvi\impl\pnr\cam2dvi.tr" completed
+Wed Nov  4 04:53:13 2026
+

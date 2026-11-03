@@ -1,0 +1,113 @@
+# do sim/run_sign.do
+# ** Warning: (vlib-34) Library already exists at "slip_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work slip_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:50:35 on Nov 04,2026
+# vlog -work work cam2dvi/src/sign_detector.v sim/tb_sign.v 
+# -- Compiling module sign_detector
+# -- Compiling module sign_localizer
+# -- Compiling module tb_sign_v12
+# 
+# Top level modules:
+# 	tb_sign_v12
+# End time: 04:50:35 on Nov 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.tb_sign_v12 
+# Start time: 04:50:35 on Nov 04,2026
+# Loading work.tb_sign_v12
+# Loading work.sign_detector
+# Loading work.sign_localizer
+# PASS enh_slip_cal_0 class=5 distance=0 captures=1 age=6769 box=104, 22,  91, 86
+# PASS enh_slip_cal_1 class=5 distance=0 captures=1 age=6588 box=106, 22,  83, 86
+# PASS enh_slip_cal_2 class=5 distance=0 captures=1 age=7147 box=100, 22,  98, 93
+# PASS enh_slip_cal_3 class=5 distance=0 captures=1 age=6904 box=102, 22,  98, 93
+# PASS enh_slip_cal_4 class=5 distance=0 captures=1 age=7498 box= 96, 22, 106,100
+# PASS enh_slip_cal_5 class=5 distance=0 captures=1 age=8567 box=112, 22,  93, 99
+# PASS enh_slip_cal_6 class=5 distance=0 captures=1 age=7768 box= 92, 22, 114,107
+# PASS enh_slip_cal_7 class=5 distance=0 captures=1 age=7687 box= 95, 22, 114,107
+# PASS enh_slip_cal_8 class=5 distance=0 captures=1 age=7864 box= 88, 25, 122,112
+# PASS enh_slip_cal_9 class=5 distance=0 captures=1 age=7710 box=106, 25, 107,112
+# PASS enh_slip_cal_10 class=5 distance=0 captures=1 age=7498 box= 94, 24, 105,101
+# PASS enh_slip_cal_11 class=5 distance=0 captures=1 age=7147 box= 95, 22, 107, 98
+# PASS enh_slip_cal_12 class=5 distance=0 captures=1 age=7147 box= 98, 22, 107, 98
+# PASS enh_slip_cal_13 class=5 distance=0 captures=1 age=7282 box=101, 24, 103,101
+# PASS enh_slip_cal_14 class=5 distance=0 captures=1 age=7336 box= 92, 30, 114, 99
+# PASS enh_slip_cal_15 class=5 distance=0 captures=1 age=7066 box= 98, 27, 102, 92
+# PASS enh_slip_cal_16 class=5 distance=0 captures=1 age=6750 box=113, 25,  89, 93
+# PASS enh_slip_cal_17 class=5 distance=0 captures=1 age=7190 box=113, 22,  83,101
+# PASS enh_slip_holdout_scale class=5 distance=6 captures=1 age=12058 box= 94, 22, 110,104
+# PASS enh_slip_holdout_dim class=5 distance=15 captures=1 age=11356 box= 96, 24, 103, 96
+# PASS enh_slip_holdout_blur class=5 distance=11 captures=1 age=11977 box= 90, 25, 117,108
+# PASS enh_slip_holdout_tilt class=5 distance=13 captures=1 age=12085 box= 90, 25, 114,106
+# PASS enh_slip_holdout_mirror class=5 distance=8 captures=1 age=11788 box= 96, 22, 111,104
+# PASS enh_slip_repro_mirror_tilt class=5 distance=0 captures=1 age=7190 box=113, 22,  83,101
+# PASS enh_sign_0 class=0 distance=255 captures=0 age=8011 box=  0,  0,   0,  0
+# PASS enh_sign_1 class=2 distance=0 captures=1 age=8173 box= 69, 19, 132, 93
+# PASS enh_sign_2 class=3 distance=2 captures=1 age=8200 box= 78, 19, 132, 92
+# PASS enh_sign_3 class=4 distance=1 captures=1 age=8632 box= 87, 19, 132, 94
+# PASS enh_sign_4 class=5 distance=3 captures=1 age=8173 box= 96, 19, 132, 93
+# PASS enh_empty_triangle class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_blank_gray class=0 distance=255 captures=0 age=1451 box=  0,  0,   0,  0
+# PASS enh_blank_yellow class=0 distance=255 captures=0 age=20211 box=  0,  0,   0,  0
+# PASS enh_warning_dim class=2 distance=0 captures=1 age=8119 box= 69, 19, 132, 93
+# PASS enh_warning_blur class=2 distance=0 captures=1 age=8200 box= 69, 19, 132, 93
+# PASS enh_warning_mirror class=2 distance=0 captures=1 age=8173 box=119, 19, 132, 93
+# PASS enh_color_rectangles class=0 distance=255 captures=0 age=4699 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g65_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g65_b7 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g80_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g80_b7 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g100_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g100_b7 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g115_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_empty_triangle_g115_b7 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker_g65_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker_g65_b7 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker_g80_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker_g80_b7 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker_g100_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker_g100_b7 class=2 distance=18 captures=1 age=12490 box= 75, 20, 131, 97
+# PASS enh_unknown_checker_g115_b0 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_unknown_checker_g115_b7 class=0 distance=255 captures=0 age=12490 box=  0,  0,   0,  0
+# PASS enh_children_cal_0 class=4 distance=0 captures=1 age=6904 box=104, 22,  92, 80
+# PASS enh_children_cal_1 class=4 distance=0 captures=1 age=6877 box=104, 22,  92, 80
+# PASS enh_children_cal_2 class=4 distance=0 captures=1 age=7687 box= 96, 23, 108, 93
+# PASS enh_children_cal_3 class=4 distance=0 captures=1 age=7633 box= 97, 23, 107, 93
+# PASS enh_children_cal_4 class=4 distance=0 captures=1 age=8389 box= 89, 23, 123,107
+# PASS enh_children_cal_5 class=4 distance=0 captures=1 age=8254 box= 89, 23, 122,107
+# PASS enh_children_cal_6 class=4 distance=0 captures=1 age=7660 box= 94, 23, 107, 95
+# PASS enh_children_cal_7 class=4 distance=0 captures=1 age=7606 box= 94, 23, 107, 93
+# PASS enh_children_cal_8 class=4 distance=0 captures=1 age=7633 box= 99, 23, 107, 93
+# PASS enh_children_cal_9 class=4 distance=0 captures=1 age=7660 box= 99, 23, 107, 95
+# PASS enh_children_cal_10 class=4 distance=0 captures=1 age=7579 box= 97, 23, 106, 92
+# PASS enh_children_cal_11 class=4 distance=0 captures=1 age=7984 box= 93, 23, 115,100
+# PASS enh_children_holdout_0 class=4 distance=3 captures=1 age=7309 box=100, 23, 100, 86
+# PASS enh_children_holdout_1 class=4 distance=1 captures=1 age=7687 box= 95, 23, 110, 97
+# PASS enh_children_holdout_2 class=4 distance=4 captures=1 age=7363 box= 99, 23, 102, 90
+# PASS enh_children_holdout_3 class=4 distance=2 captures=1 age=8173 box= 95, 23, 114, 99
+# PASS enh_children_holdout_4 class=4 distance=1 captures=1 age=8200 box= 91, 23, 118,104
+# PASS enh_pedestrian_cal_0 class=3 distance=0 captures=1 age=5959 box=105, 27,  77, 73
+# PASS enh_pedestrian_cal_1 class=3 distance=0 captures=1 age=5832 box=119, 26,  64, 70
+# PASS enh_pedestrian_cal_2 class=3 distance=0 captures=1 age=6407 box=106, 28,  82, 81
+# PASS enh_pedestrian_cal_3 class=3 distance=0 captures=1 age=6318 box=114, 26,  75, 83
+# PASS enh_pedestrian_cal_4 class=3 distance=0 captures=1 age=6766 box=101, 32,  92, 89
+# PASS enh_pedestrian_cal_5 class=3 distance=0 captures=1 age=6820 box= 95, 23, 100, 98
+# PASS enh_pedestrian_cal_6 class=3 distance=0 captures=1 age=6534 box= 95, 28,  91, 82
+# PASS enh_pedestrian_cal_7 class=3 distance=0 captures=1 age=6256 box=112, 25,  88, 94
+# PASS enh_pedestrian_cal_8 class=3 distance=0 captures=1 age=6291 box=115, 29,  74, 82
+# PASS enh_pedestrian_cal_9 class=3 distance=0 captures=1 age=6345 box=107, 24,  84, 86
+# PASS enh_pedestrian_cal_10 class=3 distance=0 captures=1 age=6391 box= 97, 27,  91, 88
+# PASS enh_pedestrian_cal_11 class=3 distance=0 captures=1 age=6588 box=109, 29,  81, 86
+# PASS enh_pedestrian_holdout_0 class=3 distance=8 captures=1 age=10527 box=108, 28,  77, 75
+# PASS enh_pedestrian_holdout_1 class=3 distance=3 captures=1 age=6345 box=113, 24,  79, 88
+# PASS enh_pedestrian_holdout_2 class=3 distance=12 captures=1 age=10573 box=116, 30,  70, 75
+# PASS enh_pedestrian_holdout_3 class=3 distance=6 captures=1 age=10924 box= 96, 29,  95, 91
+# PASS enh_pedestrian_holdout_4 class=3 distance=6 captures=1 age=10932 box=105, 29,  86, 89
+# PASS detector calibration and independent reference regressions
+# ** Note: $finish    : sim/tb_sign.v(42)
+#    Time: 548943900 ns  Iteration: 1  Instance: /tb_sign_v12
+# End time: 04:52:06 on Nov 04,2026, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
